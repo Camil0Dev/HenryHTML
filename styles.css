@@ -1,0 +1,81 @@
+body {
+  background-color: bisque;
+}
+li {
+  font-size: 15px;
+  color: brown;
+}
+.title1 {
+  font-size: 4em;
+  color: rgb(231, 7, 7);
+}
+.title2 {
+  font-size: 2em;
+  color: rgb(235, 77, 198);
+  border: 3px solid black;
+  width: fit-content;
+  margin: auto;
+  padding: 0.5px;
+  border-radius: 15%;
+  transition: 1s;
+}
+.title3 {
+  font-size: 1.5em;
+  color: rgb(235, 77, 198);
+  transition: 1s;
+}
+.cards {
+  border: 2px solid rgb(52, 52, 52);
+  border-radius: 5%;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+.title2:hover,
+.title3:hover {
+  background: red;
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  font-size: 35px;
+  color: rgb(222, 215, 18);
+  margin: 0 15px;
+  font-weight: bold;
+}
+.logo {
+  width: 200px;
+  border: 5px solid black;
+  margin: auto;
+  position: auto;
+}
+.link {
+  padding: 5px;
+}
+
+.link:hover {
+  background: red;
+  color: white;
+  text-decoration: none;
+}
+#titulos {
+  border: 5px solid black;
+  width: 60vw;
+  margin: auto;
+  padding: 1em;
+  text-align: center;
+  background-color: lightslategrey;
+}
+
+#cards-container {
+  width: 85%;
+  margin: auto;
+  border: 2px solid rgb(52, 52, 52);
+  border-radius: 5%;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

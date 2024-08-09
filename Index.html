@@ -3,59 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--html><link rel="stylesheet" href="./reset.css" /></html-->
+    <link rel="stylesheet" href="./styles.css" />
     <title>Mi Primer Sitio Web</title>
   </head>
   <body>
     <header>
-      <h1>Este es el titulo principal de mi pagina web</h1>
-      <span>Inicio</span>
-      <span>Noticias</span>
-      <span>El Clima</span>
+      <div id="titulos">
+        <h1 class="title1">News Around The World</h1>
+        <span class="menu">Inicio</span>
+        <span class="menu">Noticias</span>
+        <span class="menu">El Clima</span>
+      </div>
     </header>
     <main>
-      <img src="./Noticias.jpg" />
-
+      <center>
+        <img
+          src="./Noticias.jpg"
+          alt="centered image"
+          height="200"
+          width="200"
+        />
+      </center>
       <section>
-        <h2>Las Noticias mas importante de la actualidad</h2>
+        <h2 class="title2">Las Noticias mas importantes de la actualidad</h2>
+        <hr />
+
         <article>
-          <h3>Esta es la noticia Nº1</h3>
-          <div>
-            <p>Esta es la noticia mas importante de la historia del internet</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-              sequi autem a nam illum corrupti at esse. Corporis accusamus hic
-              ipsa doloremque at consequatur sit exercitationem dolores, nostrum
-              perspiciatis. Harum!
-            </p>
+          <div id="cards-container">
+            <div class="cards">
+              <h3 class="title3">Esta es la noticia Nº1</h3>
+              <p>
+                Esta es la noticia mas importante de la historia del internet
+              </p>
+            </div>
+
+            <div class="cards">
+              <h3 class="title3">Esta es la noticia Nº2</h3>
+              <p>Este es un listado de cosas importantes para el mundo</p>
+              <ol>
+                <li>Perro</li>
+                <li>Gato</li>
+                <li>Pez</li>
+              </ol>
+            </div>
+
+            <div class="cards">
+              <h3 class="title3">Esta es la noticia Nº3</h3>
+              <p>Este un listado muy desordenado pero importante</p>
+              <ul>
+                <li>Almuerzo</li>
+                <li>Cena</li>
+                <li>Desayuno</li>
+              </ul>
+            </div>
           </div>
         </article>
-        <hr />
-        <article>
-          <h3>Esta es la noticia Nº2</h3>
-          <p>Este es un listado de cosas importantes para el mundo</p>
-
-          <ol>
-            <li>Perro</li>
-            <li>Gato</li>
-            <li>Pez</li>
-          </ol>
-        </article>
-        <hr />
-        <article>
-          <h3>Esta es ka noticia Nº3</h3>
-          <p>Este un listado muy desordenado pero importante</p>
-          <ul>
-            <li>Almuerzo</li>
-            <li>Cena</li>
-            <li>Desayuno</li>
-          </ul>
-        </article>
-        <hr />
       </section>
     </main>
     <footer>
       <p>Este es el footer de mi pagina. Ahora voy a poner unos enlaces.</p>
-      <a href="./contacto.html">Contacto</a>
+      <a href="./contacto.html" class="link">Contacto</a>
     </footer>
   </body>
 </html>
